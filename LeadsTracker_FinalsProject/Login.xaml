@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="Login" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="237,94,0,0" TextWrapping="Wrap" Text="SOUTHVILLE LEADS TRACKER SYSTEM" VerticalAlignment="Top" Height="38" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="322" Height="28" Margin="244,167,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="244,146,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="58"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="322" Height="28" Margin="244,238,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="244,217,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="58"/>
+        <Button Content="Sign In" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="74"/>
     </Grid>
 </Window>
