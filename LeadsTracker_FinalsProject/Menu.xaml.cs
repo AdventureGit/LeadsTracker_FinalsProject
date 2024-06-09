@@ -14,16 +14,14 @@ using System.Windows.Shapes;
 
 namespace LeadsTracker_FinalsProject
 {
-    /// <summary>
-    /// Interaction logic for Login.xaml
-    /// </summary>
-    public partial class Login : Window
-    {
-        public Login()
-        {
-            InitializeComponent();
-        }
-
-
-    }
+	/// <summary>
+	/// Interaction logic for Menu.xaml
+	/// </summary>
+	public partial class Menu : Window
+	{
+		public Menu()
+		{
+			InitializeComponent();
+		}
+	}
 }
