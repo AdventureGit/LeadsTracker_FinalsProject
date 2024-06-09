@@ -64,10 +64,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LeadsTracker.designer.cs">
+    <Compile Include="Lead Tracker.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>LeadsTracker.dbml</DependentUpon>
+      <DependentUpon>Lead Tracker.dbml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -99,13 +99,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="LeadsTracker.dbml">
+    <None Include="Lead Tracker.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>LeadsTracker.designer.cs</LastGenOutput>
+      <LastGenOutput>Lead Tracker.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="LeadsTracker.dbml.layout">
-      <DependentUpon>LeadsTracker.dbml</DependentUpon>
+    <None Include="Lead Tracker.dbml.layout">
+      <DependentUpon>Lead Tracker.dbml</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -117,6 +117,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Southville Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SouthvilleBG.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
