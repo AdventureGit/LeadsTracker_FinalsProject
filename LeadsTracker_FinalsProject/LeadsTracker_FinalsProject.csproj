@@ -124,5 +124,8 @@
   <ItemGroup>
     <Resource Include="SouthvilleBG.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="defaultprofile.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

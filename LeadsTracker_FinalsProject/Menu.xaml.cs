@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +21,7 @@ namespace LeadsTracker_FinalsProject
 	public partial class Menu : Window
 	{
 		public Menu()
-		{
+		{				
 			InitializeComponent();
 		}
 
@@ -28,5 +29,26 @@ namespace LeadsTracker_FinalsProject
 		{
 
 		}
-	}
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        private void Profile_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Title = "Browse Photos...";
+            ofd.DefaultExt = "png";
+            ofd.Filter = "Images (*.BMP;*.JPG;*.GIF,*.PNG,*.TIFF)|*.BMP;*.JPG;*.GIF;*.PNG;*.TIFF|" +
+                "All files (*.*)|*.*";          
+
+            ofd.ShowDialog();
+
+            if (ofd.FileName.Length > 0)
+            {
+                txtPath.Text = ofd.FileName;
+            }   
+        }
+    }
 }
+	
